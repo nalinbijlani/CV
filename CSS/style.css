@@ -1,0 +1,141 @@
+
+
+body{
+  text-align: center;
+  color: #40514e;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+}
+h1{
+  /*font-size:3.5em;*/  /*font-size  is inherited in dynamic i.e % & em but not in static i.e px*/
+  font-size:3.9rem; /* r in em -> rem means (root mean setting) that is igonre the instruction from parent one */
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color:#66BFBF;
+  line-height: 2;
+}
+
+.heading{
+  margin-top: 5px;
+}
+
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.2rem;
+  color:#66BFBF;
+  font-weight: normal;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color:#11999E;
+}
+hr{
+  width:5%;
+  border-style: dotted none none none;
+  border-width: 8px;
+  border-color: #eaf6f6;
+}
+
+.spaninpara{
+  text-decoration: underline;
+}
+
+.top-container{
+  background-color: #E6f9f5;
+  position: relative;
+  padding-top: 100px;
+
+}
+
+.middle-container{
+  padding: 50px;
+}
+
+.skills{
+  padding-top: 60px;
+}
+
+.skill-row{
+  width:50%;
+  margin: 70px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skillrow-two{
+  width: 25%;
+  float:left;
+  padding-right: 25px;
+}
+
+.skillrow-one{
+  width: 25%;
+  float: right;
+  padding-left: 25px;
+}
+
+.profile{
+  padding-bottom: 80px;
+}
+
+.hello{
+  width:40%;
+  margin:0 auto;
+}
+
+.above-button{
+  padding-bottom: 35px;
+}
+
+.contact-me{
+  padding-top: 55px;
+}
+
+.btn{
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  background: #66BFBF;
+  padding: 4px 21px 8px 21px;
+  border: solid #d3eaf2 1px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #2d6e96;
+  text-decoration: none;
+}
+
+.bottom-container{
+  margin-top: 50px;
+  background-color: #66BFBF;
+  padding-top: 50px;
+  padding-bottom:50px ;
+}
+
+.footer-link{
+    color:#11999E;
+    padding:0px 15px 0px 15px;
+}
+
+.last-credentials{
+  color:#EAF6F6;
+  padding-top: 12px;
+}
+
+
+.bottom-cloud{
+  position:absolute;
+  bottom:340px;
+  left:450px;
+}
+.top-cloud{
+  position: absolute;
+  top:80px;
+  right:450px;
+}
